@@ -1,0 +1,114 @@
+/* Design Tokens - Auto-generated from tokens.json */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-space-50: #F0F4F8;
+  --primitive-color-space-100: #D9E2EC;
+  --primitive-color-space-200: #BCCCDC;
+  --primitive-color-space-300: #9FB3C8;
+  --primitive-color-space-400: #829AB1;
+  --primitive-color-space-500: #627D98;
+  --primitive-color-space-600: #486581;
+  --primitive-color-space-700: #334E68;
+  --primitive-color-space-800: #243B53;
+  --primitive-color-space-900: #102A43;
+  --primitive-color-space-950: #0A192F;
+  --primitive-color-space-1000: #020C1B;
+  --primitive-color-cyan-50: #E0FFFF;
+  --primitive-color-cyan-400: #26F0F1;
+  --primitive-color-cyan-500: #00E5FF;
+  --primitive-color-cyan-600: #00B8D4;
+  --primitive-color-indigo-400: #818CF8;
+  --primitive-color-indigo-500: #6366F1;
+  --primitive-color-indigo-600: #4F46E5;
+  --primitive-color-white: #FFFFFF;
+  --primitive-color-black: #000000;
+  
+  --primitive-spacing-0: 0;
+  --primitive-spacing-1: 0.25rem;
+  --primitive-spacing-2: 0.5rem;
+  --primitive-spacing-3: 0.75rem;
+  --primitive-spacing-4: 1rem;
+  --primitive-spacing-5: 1.25rem;
+  --primitive-spacing-6: 1.5rem;
+  --primitive-spacing-8: 2rem;
+  --primitive-spacing-10: 2.5rem;
+  --primitive-spacing-12: 3rem;
+  --primitive-spacing-16: 4rem;
+  --primitive-spacing-24: 6rem;
+  --primitive-spacing-32: 8rem;
+  --primitive-spacing-container: 1200px;
+  --primitive-spacing-hero-content: 800px;
+
+  --primitive-fontSize-xs: 0.75rem;
+  --primitive-fontSize-sm: 0.875rem;
+  --primitive-fontSize-base: 1rem;
+  --primitive-fontSize-lg: 1.125rem;
+  --primitive-fontSize-xl: 1.25rem;
+  --primitive-fontSize-2xl: 1.5rem;
+  --primitive-fontSize-3xl: 1.875rem;
+  --primitive-fontSize-4xl: 2.25rem;
+  --primitive-fontSize-5xl: 3.5rem;
+  --primitive-fontSize-6xl: 4.5rem;
+
+  --primitive-radius-none: 0;
+  --primitive-radius-sm: 0.125rem;
+  --primitive-radius-default: 0.25rem;
+  --primitive-radius-md: 0.375rem;
+  --primitive-radius-lg: 0.5rem;
+  --primitive-radius-xl: 0.75rem;
+  --primitive-radius-2xl: 1rem;
+  --primitive-radius-3xl: 1.5rem;
+  --primitive-radius-full: 9999px;
+
+  --primitive-shadow-none: none;
+  --primitive-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --primitive-shadow-default: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --primitive-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --primitive-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --primitive-shadow-glow-cyan: 0 0 20px 0 rgba(0, 229, 255, 0.4);
+  --primitive-shadow-glow-indigo: 0 0 20px 0 rgba(99, 102, 241, 0.4);
+
+  --primitive-duration-fast: 150ms;
+  --primitive-duration-normal: 300ms;
+  --primitive-duration-slow: 500ms;
+}
+
+/* === SEMANTIC === */
+:root {
+  --color-background: var(--primitive-color-space-1000);
+  --color-foreground: var(--primitive-color-space-50);
+  --color-primary: var(--primitive-color-cyan-500);
+  --color-primary-hover: var(--primitive-color-cyan-400);
+  --color-primary-foreground: var(--primitive-color-space-1000);
+  --color-secondary: var(--primitive-color-indigo-500);
+  --color-secondary-foreground: var(--primitive-color-white);
+  --color-muted: var(--primitive-color-space-900);
+  --color-muted-foreground: var(--primitive-color-space-300);
+  --color-border: var(--primitive-color-space-800);
+  --color-ring: var(--primitive-color-cyan-500);
+  --color-glass: rgba(2, 12, 27, 0.7);
+  --color-glass-border: rgba(255, 255, 255, 0.05);
+  --gradient-cyan-indigo: linear-gradient(135deg, var(--primitive-color-cyan-500) 0%, var(--primitive-color-indigo-500) 100%);
+  
+  --spacing-component: var(--primitive-spacing-4);
+  --spacing-section: var(--primitive-spacing-24);
+  --spacing-section-lg: var(--primitive-spacing-32);
+}
+
+/* === COMPONENTS === */
+:root {
+  --button-bg: var(--color-primary);
+  --button-fg: var(--color-primary-foreground);
+  --button-hover-bg: var(--color-primary-hover);
+  --button-padding-x: var(--primitive-spacing-6);
+  --button-padding-y: var(--primitive-spacing-3);
+  --button-radius: var(--primitive-radius-sm);
+  --button-font-size: var(--primitive-fontSize-sm);
+
+  --card-bg: var(--color-glass);
+  --card-border: var(--color-glass-border);
+  --card-shadow: var(--primitive-shadow-lg);
+  --card-padding: var(--primitive-spacing-8);
+  --card-radius: var(--primitive-radius-xl);
+}

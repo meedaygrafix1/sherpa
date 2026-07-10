@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sherpa.ai — Secure AI. Private Data. Sovereign Intelligence.</title>
+  <meta name="description" content="Sherpa.ai enables secure distributed AI deployments across enterprises and governments — data private, sovereign, and fully under your control." />
+  <!-- Hugeicons -->
+  <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+</head>
+<body>
+
+  <!-- Cursor Glow -->
+  <div id="cursor-glow"></div>
+
+  <!-- ── Header ────────────────────────────────────────────── -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img src="/logo-110x29.png" alt="Sherpa.ai" class="logo-img" />
+      </a>
+      <nav class="nav">
+        <a href="#product"   class="nav-link">Product <i class="hgi-stroke hgi-arrow-down-01"></i></a>
+        <a href="#solutions" class="nav-link">Solutions <i class="hgi-stroke hgi-arrow-down-01"></i></a>
+        <a href="#research"  class="nav-link">Research</a>
+        <a href="#blog"      class="nav-link">Blog</a>
+        <a href="#company"   class="nav-link">Company</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-primary" style="padding:0.5rem 1rem;">Book a demo</button>
+        <a href="#login" class="nav-link" style="font-size:0.875rem;">Login</a>
+        <a href="#lang" class="nav-link" style="font-size:0.875rem;">EN <i class="hgi-stroke hgi-arrow-down-01"></i></a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Toggle navigation">
+        <i class="hgi-stroke hgi-menu-01"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Hero ──────────────────────────────────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero-mesh"></div>
+    <div class="hero-grid"></div>
+    <div class="container hero-inner fade-up">
+
+      <!-- Left: Content -->
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <div class="hero-eyebrow-line"></div>
+          <span class="hero-eyebrow-text">Privacy-Preserving AI Platform</span>
+        </div>
+        <h1 class="title-xl">
+          Secure AI.<br>
+          Private Data.<br>
+          <span class="gradient-text">Sovereign Intelligence.</span>
+        </h1>
+        <p class="text-lead" style="margin-top:1.25rem;">
+          Sherpa.ai enables secure distributed AI deployments across enterprises, governments,
+          and regulated environments — data stays private, sovereign, and fully under your control.
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-primary">Book a demo</button>
+          <button class="btn btn-ghost">Contact us →</button>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-value" data-count="100">0</div>
+            <div class="hero-stat-label">% Data privacy guaranteed</div>
+          </div>
+          <div style="width:1px;height:40px;background:rgba(255,255,255,0.08)"></div>
+          <div>
+            <div class="hero-stat-value" data-count="50">0</div>
+            <div class="hero-stat-label">Enterprise deployments</div>
+          </div>
+          <div style="width:1px;height:40px;background:rgba(255,255,255,0.08)"></div>
+          <div>
+            <div class="hero-stat-value" data-count="4">0</div>
+            <div class="hero-stat-label">Compliance certifications</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Video Preview -->
+      <div class="hero-visual fade-up" style="transition-delay:200ms;">
+        <div class="video-card" id="video-card">
+          <img src="/video_thumb.png" alt="Sherpa.ai Platform Demo" class="video-thumb" />
+          <div class="video-overlay"></div>
+
+          <!-- Play Button -->
+          <button class="play-btn" id="play-btn" aria-label="Watch demo video">
+            <span class="play-pulse"></span>
+            <span class="play-pulse play-pulse--delay"></span>
+            <span class="play-icon">
+              <i class="hgi-stroke hgi-play"></i>
+            </span>
+          </button>
+
+          <!-- Watch label -->
+          <div class="video-label">
+            <i class="hgi-stroke hgi-play-circle-01"></i>
+            Watch platform demo · 2 min
+          </div>
+
+          <!-- Floating badge top-right -->
+          <div class="video-badge">
+            <i class="hgi-stroke hgi-shield-01"></i> ISO 27001
+          </div>
+        </div>
+
+        <!-- Decorative glow behind card -->
+        <div class="video-glow"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Video Modal -->
+  <div class="video-modal" id="video-modal" role="dialog" aria-modal="true" aria-label="Demo video">
+    <div class="video-modal-backdrop" id="modal-backdrop"></div>
+    <div class="video-modal-box">
+      <button class="video-modal-close" id="modal-close" aria-label="Close video">
+        <i class="hgi-stroke hgi-cancel-01"></i>
+      </button>
+      <div class="video-modal-content">
+        <!-- Placeholder video — replace src with real video URL -->
+        <video controls autoplay style="width:100%;border-radius:0.75rem;display:block;">
+          <source src="" type="video/mp4" />
+          Your browser doesn't support video playback.
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero V-notch geometric cut -->
+  <div class="hero-cut" aria-hidden="true"></div>
+
+  <!-- ── Ticker Strip ───────────────────────────────────────── -->
+  <section class="ticker-section">
+    <p class="ticker-label">Trusted by leading enterprises worldwide</p>
+    <div class="ticker-wrapper">
+      <div class="ticker-track">
+        <!-- Set 1 -->
+        <img src="/brands/sherpaai-telefonica-e1756365490836.png" alt="Telefónica" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-prosegur-e1756365551533.png" alt="Prosegur" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-osakidetza.png" alt="Osakidetza" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-orange.png" alt="Orange" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-zurich.png" alt="Zurich" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-indra.png" alt="Indra" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-kpmg-e1756365526833.png" alt="KPMG" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-laboral-e1756365461420.png" alt="Laboral" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-nih-e1756365436277.png" alt="NIH" class="ticker-logo-img" />
+        
+        <!-- Set 2 (duplicate for seamless loop) -->
+        <img src="/brands/sherpaai-telefonica-e1756365490836.png" alt="Telefónica" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-prosegur-e1756365551533.png" alt="Prosegur" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-osakidetza.png" alt="Osakidetza" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-orange.png" alt="Orange" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-zurich.png" alt="Zurich" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-indra.png" alt="Indra" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-kpmg-e1756365526833.png" alt="KPMG" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-laboral-e1756365461420.png" alt="Laboral" class="ticker-logo-img" />
+        <img src="/brands/sherpaai-nih-e1756365436277.png" alt="NIH" class="ticker-logo-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Value Proposition ─────────────────────────────────── -->
+  <section class="section" id="platform">
+    <div class="container">
+      <div class="fade-up" style="text-align:center;max-width:600px;margin:0 auto;">
+        <span class="badge">Why Sherpa.ai</span>
+        <h2 class="title-lg">Maximize the value of data & AI</h2>
+        <p class="text-muted">Unlock the full intelligence of your distributed data — without ever compromising privacy, security, or sovereignty.</p>
+      </div>
+      <div class="features-grid fade-up" style="transition-delay:100ms;">
+        <div class="feature-card" style="--card-accent:#00E5FF">
+          <div class="feature-icon"><i class="hgi-stroke hgi-link-01"></i></div>
+          <h3 class="title-md">Collaborative Intelligence</h3>
+          <p class="text-muted">Enhance your AI models by enabling secure, collaborative intelligence across organizations without sharing raw data.</p>
+        </div>
+        <div class="feature-card" style="--card-accent:#0EA5E9">
+          <div class="feature-icon"><i class="hgi-stroke hgi-justice-scale-01"></i></div>
+          <h3 class="title-md">Regulatory Compliance</h3>
+          <p class="text-muted">Ensure GDPR, HIPAA, ISO 27001, and AI Act compliance while streamlining every aspect of your AI implementations.</p>
+        </div>
+        <div class="feature-card" style="--card-accent:#38BDF8">
+          <div class="feature-icon"><i class="hgi-stroke hgi-shield-01"></i></div>
+          <h3 class="title-md">Security at Scale</h3>
+          <p class="text-muted">Increase security and mitigate risk across all AI deployments with advanced cryptographic protection.</p>
+        </div>
+      </div>
+
+
+      <!-- Testimonial -->
+      <div class="testimonial-block fade-up" style="transition-delay:300ms;">
+        <p class="testimonial-quote">
+          "The application of Artificial Intelligence through Sherpa.ai's Privacy-Preserving platform will allow the prediction algorithm to improve the diagnosis without the need to share any patient data. This platform may enable testing of diagnosis and therapeutics for a group of diseases that are currently without specific treatment options."
+        </p>
+        <div class="testimonial-author">
+          <div class="author-avatar">TK</div>
+          <div>
+            <div class="author-name">Thomas Kalil</div>
+            <div class="author-title">Former Deputy Director, Office of Science & Technology Policy — The White House</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="geo-divider" aria-hidden="true">
+    <span class="geo-diamond"></span>
+    <span class="geo-diamond geo-diamond--sm"></span>
+    <span class="geo-diamond"></span>
+  </div>
+
+  <!-- ── Split: Map ────────────────────────────────────────── -->
+  <section class="section">
+    <div class="container split">
+      <div class="split-content fade-up">
+        <span class="badge">Federated Learning</span>
+        <h2>Data collaborations<br>without sharing data</h2>
+        <p class="text-muted" style="margin-bottom:1.25rem;">
+          Improve AI models using data from multiple sources — without ever sharing sensitive information. Sherpa.ai offers an enterprise-grade, privacy-compliant solution that enables secure data and AI collaboration across different parties.
+        </p>
+        <p class="text-muted">
+          From accelerating clinical trials to combating financial crime, the Sherpa.ai platform unlocks the full potential of decentralized data — while preserving privacy and ensuring regulatory compliance.
+        </p>
+        <div style="margin-top:2rem;">
+          <button class="btn btn-ghost">Learn more →</button>
+        </div>
+      </div>
+      <div class="split-img fade-up" style="transition-delay:150ms;">
+        <img src="/map_bg.png" alt="Global federated network map" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Split: Isometric ──────────────────────────────────── -->
+  <section class="section">
+    <div class="container split">
+      <div class="split-img split-img-first fade-up">
+        <img src="/isometric_bg.png" alt="Private data server illustration" />
+      </div>
+      <div class="split-content fade-up" style="transition-delay:150ms;">
+        <span class="badge">Privacy-First Architecture</span>
+        <h2>Share insights,<br>not data</h2>
+        <p class="text-muted" style="margin-bottom:1.25rem;">
+          With Sherpa.ai's Federated Learning platform, data never leaves your firewall. AI models are trained locally within each data silo — only encrypted model updates are shared.
+        </p>
+        <p class="text-muted">
+          Once trained, models can be deployed privately at the edge, enabling real-time, on-device inference. Full compliance with ISO 27001 and HIPAA standards is maintained throughout.
+        </p>
+        <div style="margin-top:2rem;">
+          <button class="btn btn-ghost">Explore architecture →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="geo-divider" aria-hidden="true">
+    <span class="geo-diamond"></span>
+    <span class="geo-diamond geo-diamond--sm"></span>
+    <span class="geo-diamond"></span>
+  </div>
+
+  <!-- ── Use Cases Bento Grid ──────────────────────────────── -->
+  <section class="section" id="solutions">
+    <div class="container">
+      <div class="fade-up" style="text-align:center;max-width:600px;margin:0 auto;">
+        <span class="badge">Use Cases</span>
+        <h2 class="title-lg">Discover how Sherpa.ai can help your organization</h2>
+      </div>
+      <div class="bento-grid fade-up" style="transition-delay:100ms;">
+        <div class="bento-card">
+          <img src="/healthcare.png" alt="Healthcare" class="bento-img" />
+          <div class="bento-content">
+            <h3>Healthcare & Life Sciences</h3>
+            <p>Optimize patient care, accelerate research, and forecast operational needs without exposing sensitive records.</p>
+            <a href="#" class="bento-link">View use cases →</a>
+          </div>
+        </div>
+        <div class="bento-card">
+          <img src="/finance.png" alt="Financial Services" class="bento-img" />
+          <div class="bento-content">
+            <h3>Financial Services</h3>
+            <p>Detect fraud earlier, mitigate risk, and drive customer loyalty with collaborative AI across institutions.</p>
+            <a href="#" class="bento-link">View use cases →</a>
+          </div>
+        </div>
+        <div class="bento-card">
+          <img src="/manufacturing.png" alt="Industry" class="bento-img" />
+          <div class="bento-content">
+            <h3>Industry & Manufacturing</h3>
+            <p>Streamline operations, optimize supply chains, and predict part failures across factory networks.</p>
+            <a href="#" class="bento-link">View use cases →</a>
+          </div>
+        </div>
+        <div class="bento-card">
+          <img src="/cybersecurity.png" alt="Cybersecurity" class="bento-img" />
+          <div class="bento-content">
+            <h3>Cybersecurity & Security</h3>
+            <p>Threat and ransomware detection, behavioral analysis, and anomaly detection across distributed silos.</p>
+            <a href="#" class="bento-link">View use cases →</a>
+          </div>
+        </div>
+        <div class="bento-card">
+          <img src="/aerospace.png" alt="Aerospace" class="bento-img" />
+          <div class="bento-content">
+            <h3>Aerospace & Defense</h3>
+            <p>Enhance decision-making in critical mission environments with fully sovereign, on-device AI inference.</p>
+            <a href="#" class="bento-link">View use cases →</a>
+          </div>
+        </div>
+        <div class="bento-card">
+          <img src="/genai.png" alt="Generative AI" class="bento-img" />
+          <div class="bento-content">
+            <h3>Generative AI</h3>
+            <p>Pre-train and fine-tune LLMs across proprietary datasets without ever moving sensitive training data.</p>
+            <a href="#" class="bento-link">View use cases →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── IDC Banner ─────────────────────────────────────────── -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="idc-banner fade-up">
+        <div class="idc-bg"></div>
+        <div class="idc-overlay"></div>
+        <div class="idc-content">
+          <div class="idc-logo">
+            <i class="hgi-stroke hgi-file-download-01" style="font-size:1.4rem;"></i>
+            IDC
+          </div>
+          <h2 class="title-lg" style="margin-bottom:1.25rem;">Download the IDC Report<br>on Federated Learning</h2>
+          <blockquote>
+            "Sherpa.ai has emerged with a leading unique approach to Federated Learning which can overcome privacy and regulatory limitations to unlock new scenarios for collaboration between organizations — leading to solving complex challenges with very impactful results."
+          </blockquote>
+          <button class="btn btn-primary">Download the Report →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ─────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-certs">
+          <img src="/footer/sherpaai-certificates-1024x116.png" alt="ISO 27001, HIPAA, GDPR, and CCPA Compliance" style="height: 34px; width: auto;" />
+        </div>
+        <div style="display:flex;gap:0.75rem;flex-shrink:0;">
+          <button class="btn btn-ghost" style="font-size:0.8rem;padding:0.55rem 1rem;">Contact us</button>
+          <button class="btn btn-primary" style="font-size:0.8rem;padding:0.55rem 1rem;">Book a demo</button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <a href="#" class="logo">
+          <img src="/logo-110x29.png" alt="Sherpa.ai" class="logo-img logo-img--light" />
+        </a>
+        <div class="footer-links">
+          <a href="#">Contact</a>
+          <a href="#">Careers</a>
+          <a href="#">Cookie Policy</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Trust Center</a>
+        </div>
+        <span>© 2026 Sherpa.ai. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
