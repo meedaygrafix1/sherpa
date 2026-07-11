@@ -1,0 +1,7 @@
+{
+  "name": "sharpie.ai-root",
+  "private": true,
+  "scripts": {
+    "build": "cd sherpa-redesign && npm install && npm run build"
+  }
+}
